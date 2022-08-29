@@ -194,10 +194,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
+                <version>2.19.1</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <parallel>methods</parallel>
+                    <!-- <parallel>methods</parallel>
                     <threadCount>1</threadCount>
                     <reuseForks>false</reuseForks>
                     <forkCount>4</forkCount>
@@ -207,7 +207,7 @@
                         <include>com.jsoniter.suite.NonStreamingTests4Hash</include>
                         <include>com.jsoniter.suite.NonStreamingTests4Strict</include>
                         <include>com.jsoniter.suite.ExtraTests</include>
-                    </includes>
+                    </includes> -->
                 </configuration>
             </plugin>
         </plugins>
